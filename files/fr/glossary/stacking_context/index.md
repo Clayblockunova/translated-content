@@ -11,4 +11,4 @@ slug: Glossary/Stacking_context
 
 ### Culture générale
 
-- [L'empilement de couches](/fr/docs/Web/CSS/Comprendre_z-index/Empilement_de_couches)
+- [L'empilement de couches](/fr/docs/Web/CSS/Guides/Positioned_layout/Stacking_context)

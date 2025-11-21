@@ -34,7 +34,7 @@ Firefox 55 이전에 이 API의 원래 이름은 `contextMenus`였고, 지금도
 
 ## 아이콘
 
-["icons" manifest 키](/en-US/Add-ons/WebExtensions/manifest.json/icons)로 확장이 아이콘을 가졌으면, 콘텍스트 메뉴 항목은 라벨 옆에 아이콘을 함께 표시한다. 보통의 경우 16x16 픽셀이 표시되고, 고해상도이면 32x32 픽셀의 아이콘이 표시된다.
+["icons" manifest 키](/ko/docs/Mozilla/Add-ons/WebExtensions/manifest.json/icons)로 확장이 아이콘을 가졌으면, 콘텍스트 메뉴 항목은 라벨 옆에 아이콘을 함께 표시한다. 보통의 경우 16x16 픽셀이 표시되고, 고해상도이면 32x32 픽셀의 아이콘이 표시된다.
 
 ![](menus-2.png)
 
@@ -156,7 +156,8 @@ browser.menus.create(
 
 {{WebExtExamples("h2")}}
 
-> **참고:** **Acknowledgements**This API is based on Chromium's [`chrome.contextMenus`](https://developer.chrome.com/docs/extensions/reference/api/contextMenus) API. This documentation is derived from [`context_menus.json`](https://chromium.googlesource.com/chromium/src/+/master/chrome/common/extensions/api/context_menus.json) in the Chromium code.
+> [!NOTE]
+> **Acknowledgements**This API is based on Chromium's [`chrome.contextMenus`](https://developer.chrome.com/docs/extensions/reference/api/contextMenus) API. This documentation is derived from [`context_menus.json`](https://chromium.googlesource.com/chromium/src/+/master/chrome/common/extensions/api/context_menus.json) in the Chromium code.
 
 ```
 // Copyright 2015 The Chromium Authors. All rights reserved.

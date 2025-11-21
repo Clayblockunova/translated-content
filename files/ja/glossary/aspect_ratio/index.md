@@ -22,7 +22,7 @@ CSS では、{{cssxref("ratio")}} のデータ型は `width / height` （例え�
 }
 ```
 
-SVG では、アスペクト比は [`viewBox`](/ja/docs/Web/SVG/Attribute/viewBox) 属性の 4 つの値によって定義されます。最初の 2 つの値は SVG が持っている最小の X と Y の原点座標で、次の 2 つの値は SVG のアスペクト比を設定する幅と高さです。
+SVG では、アスペクト比は [`viewBox`](/ja/docs/Web/SVG/Reference/Attribute/viewBox) 属性の 4 つの値によって定義されます。最初の 2 つの値は SVG が持っている最小の X と Y の原点座標で、次の 2 つの値は SVG のアスペクト比を設定する幅と高さです。
 
 ```svg
 <svg viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg"></svg>
@@ -43,8 +43,8 @@ myTrack.applyConstraints(constraints);
 ## 関連情報
 
 - CSS の {{cssxref("aspect-ratio")}} プロパティ
-- [アスペクト比の理解](/ja/docs/Web/CSS/CSS_box_sizing/Understanding_aspect-ratio)ガイド
-- [CSS ボックスサイズ指定](/ja/docs/Web/CSS/CSS_box_sizing)モジュール
+- [アスペクト比の理解](/ja/docs/Web/CSS/Guides/Box_sizing/Aspect_ratios)ガイド
+- [CSS ボックスサイズ指定](/ja/docs/Web/CSS/Guides/Box_sizing)モジュール
 - 関連用語:
   - {{glossary("intrinsic size", "内在サイズ")}}
 - CSS の {{cssxref("min-content")}}、{{cssxref("max-content")}}、{{cssxref("fit-content")}} プロパティ値

@@ -79,7 +79,7 @@ ctx.drawImage(myImage, 0.3, 0.5);
 
 ### 用 CSS 变换特性缩放画布
 
-[CSS 变换](/zh-CN/docs/Web/CSS/CSS_transforms/Using_CSS_transforms)使用 GPU，因此速度更快。最好的情况是不直接缩放画布，或者具有较小的画布并按比例放大，而不是较大的画布并按比例缩小。
+[CSS 变换](/zh-CN/docs/Web/CSS/Guides/Transforms/Using)使用 GPU，因此速度更快。最好的情况是不直接缩放画布，或者具有较小的画布并按比例放大，而不是较大的画布并按比例缩小。
 
 ```js
 var scaleX = window.innerWidth / canvas.width;
@@ -113,7 +113,7 @@ var ctx = canvas.getContext("2d", { alpha: false });
 
 ## 参见
 
-- [Improving HTML5 Canvas Performance – HTML5 Rocks](http://www.html5rocks.com/en/tutorials/canvas/performance/#toc-ref)
+- [Improving HTML5 Canvas Performance – HTML5 Rocks](https://www.html5rocks.com/en/tutorials/canvas/performance/#toc-ref)
 - [Optimizing your JavaScript game for Firefox OS – Mozilla Hacks](https://hacks.mozilla.org/2013/05/optimizing-your-javascript-game-for-firefox-os/)
 
 {{PreviousNext("Web/API/Canvas_API/Tutorial/Pixel_manipulation_with_canvas", "Web/API/Canvas_API/Tutorial/Finale")}}

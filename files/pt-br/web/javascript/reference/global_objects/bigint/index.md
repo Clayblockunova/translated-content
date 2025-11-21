@@ -18,7 +18,8 @@ BigInt(value);
 - `value`
   - : O valor numérico do objeto que está sendo criado. Pode ser uma _string_ ou um número inteiro.
 
-> **Nota:** **Observação**: `BigInt()` não é usado com o operador {{jsxref("Operators/new", "new")}}.
+> [!NOTE]
+> **Observação**: `BigInt()` não é usado com o operador {{jsxref("Operators/new", "new")}}.
 
 ## Descrição
 
@@ -44,7 +45,8 @@ const hugeBin = BigInt(
 
 Isso é parecido com um {{jsxref("Number")}} em algumas partes, mas difere-se em alguns assuntos importantes — ele não pode ser usado com métodos no objeto {{jsxref("Math")}} e não pode ser misturado em operações ou qualquer instância de `Number`.
 
-> **Aviso:** {{jsxref("Number")}} e `BigInt` não podem ser misturados em operações — eles devem ser manipulados com o mesmo tipo.
+> [!WARNING]
+> {{jsxref("Number")}} e `BigInt` não podem ser misturados em operações — eles devem ser manipulados com o mesmo tipo.
 >
 > Tenha cuidado com a conversão e desconversão de valores, visto que a precisão de `BigInt` pode ser perdida com a conversào para `Number`.
 
@@ -207,7 +209,7 @@ Todas as instâncias `BigInt` são herdades de BigInt.prototype. O protótipo do
 
 ### Métodos
 
-{{page('/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/BigInt/prototype', 'Methods')}}
+<!-- TODO: page macro not supported: page('/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/BigInt/prototype', 'Methods') -->
 
 ## Exemplos
 

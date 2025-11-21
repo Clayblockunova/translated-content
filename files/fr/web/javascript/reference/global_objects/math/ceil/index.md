@@ -7,7 +7,21 @@ slug: Web/JavaScript/Reference/Global_Objects/Math/ceil
 
 La fonction **`Math.ceil()`** retourne le plus petit entier supérieur ou égal au nombre donné.
 
-{{EmbedInteractiveExample("pages/js/math-ceil.html")}}
+{{InteractiveExample("JavaScript Demo: Math.ceil()")}}
+
+```js interactive-example
+console.log(Math.ceil(0.95));
+// Expected output: 1
+
+console.log(Math.ceil(4));
+// Expected output: 4
+
+console.log(Math.ceil(7.004));
+// Expected output: 8
+
+console.log(Math.ceil(-7.004));
+// Expected output: -7
+```
 
 ## Syntaxe
 
@@ -28,7 +42,8 @@ Le plus petit entier qui est supérieur ou égal au nombre donné.
 
 `ceil()` est une méthode statique de `Math`. Elle doit être utilisée avec la syntaxe `Math.ceil()`, plutôt que comme une méthode d'un autre objet qui aurait été créé (`Math` n'est pas un constructeur).
 
-> **Note :** `Math.ceil(null)` renverra `0` et pas {{jsxref("NaN")}}.
+> [!NOTE]
+> `Math.ceil(null)` renverra `0` et pas {{jsxref("NaN")}}.
 
 ## Exemples
 

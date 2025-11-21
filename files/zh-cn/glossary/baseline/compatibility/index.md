@@ -5,8 +5,6 @@ l10n:
   sourceCommit: 70aa041ebd7e31df76818bc8459f60659fe94c0c
 ---
 
-{{GlossarySidebar}}
-
 **基线**（Baseline）标识可跨浏览器使用的 Web 平台特性，包括 API、CSS 属性、JavaScript 语法。基线特性被描述为当前稳定浏览器中新提供的，或随着时间的推移可持续支持且广泛可用的特性。不符合基线标准的特性被描述为具有有限可用性。
 
 基线考虑以下浏览器的支持情况：
@@ -41,7 +39,7 @@ l10n:
 
 ## 参见
 
-- [跨浏览器测试](/zh-CN/docs/Learn/Tools_and_testing/Cross_browser_testing)
+- [跨浏览器测试](/zh-CN/docs/Learn_web_development/Extensions/Testing)
 - [web-platform-dx/web-features 仓库](https://github.com/web-platform-dx/web-features)
 - [W3C WebDX 社区小组](https://www.w3.org/community/webdx/)
 - [mdn/browser-compat-data 仓库](https://github.com/mdn/browser-compat-data)

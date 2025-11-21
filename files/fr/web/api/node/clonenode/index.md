@@ -34,7 +34,7 @@ p_prime = p.cloneNode(true);
 
 ## Notes
 
-Cloner un nœud copie tous ses attributs ainsi que leurs valeurs, y compris les auditeurs intrinsèques (en ligne). Il ne copie pas les auditeurs d'évènement ajoutés avec [`addEventListener()`](/fr/docs/DOM/element.addEventListener) ou ceux assignés au propriétés d'éléments (par exemple `node.onclick = fn`). De plus, pour un élément {{HTMLElement("canvas")}} l'image peinte n'est pas copiée.
+Cloner un nœud copie tous ses attributs ainsi que leurs valeurs, y compris les auditeurs intrinsèques (en ligne). Il ne copie pas les auditeurs d'évènement ajoutés avec [`addEventListener()`](/fr/docs/Web/API/EventTarget/addEventListener) ou ceux assignés au propriétés d'éléments (par exemple `node.onclick = fn`). De plus, pour un élément {{HTMLElement("canvas")}} l'image peinte n'est pas copiée.
 
 Le nœud dupliqué renvoyé par `cloneNode` ne fera pas partie du document tant qu'il n'y est pas ajouté via la méthode {{domxref("Node.appendChild()")}} ou une méthode similaire. De même, il n'a pas de parent tant qu'il n'a pas été ajouté à un autre nœud.
 
@@ -43,7 +43,8 @@ Si `deep` est défini à `false`, aucun des nœuds enfants n'est copié.
 
 Si `deep` est évalué à `true`, le sous-arbre entier est copié également (y compris le texte qui peut être contenu dans des nœuds {{domxref("Text")}} enfants). Pour les nœuds vides (par exemple les éléments {{HTMLElement("img")}} et {{HTMLElement("input")}} ) le fait de mettre `deep` à `true` ou `false` n'a aucune incidence sur la copie, mais il est tout de même nécessaire de fournir une valeur.
 
-> **Attention :** `cloneNode()` peut conduire à dupliquer des ID (_identifiant_) d'éléments dans un document.
+> [!WARNING]
+> `cloneNode()` peut conduire à dupliquer des ID (_identifiant_) d'éléments dans un document.
 
 Si le noeud d'origine a un identifiant et que le clone doit être placé dans le même document, l'identifiant du clone peut être modifié pour être unique. Les attributs du nom peuvent devoir être modifiés également, selon que les noms en double sont attendus.
 

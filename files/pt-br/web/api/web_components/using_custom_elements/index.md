@@ -195,7 +195,8 @@ Você pode definir vários retornos de chamada diferentes dentro da definição 
 
 - `connectedCallback`: Chamado sempre que o custom element é anexado a um elemento conectado ao documento. Isso acontecerá sempre que o nó for movido e pode acontecer antes que o conteúdo do elemento tenha sido totalmente analisado.
 
-  > **Nota:** `connectedCallback` pode ser chamado assim que seu elemento não estiver mais conectado, use {{domxref("Node.isConnected")}} para ter certeza.
+  > [!NOTE]
+  > `connectedCallback` pode ser chamado assim que seu elemento não estiver mais conectado, use {{domxref("Node.isConnected")}} para ter certeza.
 
 - `disconnectedCallback`: Invocado sempre que o custom element é desconectado do documento DOM.
 - `adoptedCallback`: Invocado sempre que o custom element é movido para um novo documento.
@@ -304,4 +305,4 @@ Observe que as classes ES2015 não podem ser transpiladas de forma confiável em
 
 ## Bibliotecas
 
-Existem várias bibliotecas que são construídas em Web Components com o objetivo de aumentar o nível de abstração ao criar elementos personalizados. Algumas dessas bibliotecas são [snuggsi ツ](https://github.com/devpunks/snuggsi), [X-Tag](https://x-tag.github.io/), [Slim.js](http://slimjs.com/), [LitElement](https://lit-element.polymer-project.org/), [Smart](https://www.htmlelements.com/), [Stencil](https://stenciljs.com) e [hyperHTML-Element](https://github.com/WebReflection/hyperHTML-Element).
+Existem várias bibliotecas que são construídas em Web Components com o objetivo de aumentar o nível de abstração ao criar elementos personalizados. Algumas dessas bibliotecas são [snuggsi ツ](https://github.com/devpunks/snuggsi), [X-Tag](https://x-tag.github.io/), [Slim.js](https://slimjs.com/), [LitElement](https://lit-element.polymer-project.org/), [Smart](https://www.htmlelements.com/), [Stencil](https://stenciljs.com) e [hyperHTML-Element](https://github.com/WebReflection/hyperHTML-Element).

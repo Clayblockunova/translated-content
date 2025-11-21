@@ -25,7 +25,7 @@ l10n:
 
 ## 示例
 
-使用 CSS `text-align` 替代，{{cssxref("text-align")}} 页面有一个[示例](/zh-CN/docs/Web/CSS/text-align#表格对齐)。
+使用 CSS `text-align` 替代，{{cssxref("text-align")}} 页面有一个[示例](/zh-CN/docs/Web/CSS/Reference/Properties/text-align#表格对齐)。
 
 ## 规范
 
@@ -39,4 +39,4 @@ l10n:
 
 - {{cssxref("text-align")}}
 - {{cssxref("caption-side")}}
-- [样式化表格](/zh-CN/docs/Learn/CSS/Building_blocks/Styling_tables)
+- [样式化表格](/zh-CN/docs/Learn_web_development/Core/Styling_basics/Tables)

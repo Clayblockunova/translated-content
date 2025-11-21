@@ -7,7 +7,7 @@ slug: Web/API/Window/location
 
 La propriété en lecture seule **`Window.location`** renvoie un objet [`Location`](/fr/docs/Web/API/Location) qui contient des informations à propos de l'emplacement courant du document.
 
-Bien que `Window.location` soit un objet `Location` en _lecture seule_, on peut lui affecter une chaîne de caractères [`DOMString`](/fr/docs/Web/API/DOMString). Cela signifie qu'on peut, la plupart du temps, manipuler `location` comme une chaîne de caractères&nbsp;: `location = 'http://www.example.com'` est par exemple synonyme de `location.href = 'http://www.example.com'`.
+Bien que `Window.location` soit un objet `Location` en _lecture seule_, on peut lui affecter une chaîne de caractères [`DOMString`](/fr/docs/Web/JavaScript/Reference/Global_Objects/String). Cela signifie qu'on peut, la plupart du temps, manipuler `location` comme une chaîne de caractères&nbsp;: `location = 'http://www.example.com'` est par exemple synonyme de `location.href = 'http://www.example.com'`.
 
 Voir la page de l'interface [`Location`](/fr/docs/Web/API/Location) pour connaître l'ensemble des propriétés disponibles.
 
@@ -30,7 +30,8 @@ console.log(location); // affiche "https://developer.mozilla.org/fr/docs/Web/API
 
 Lorsqu'une nouvelle valeur est affectée à l'objet `location`, un document sera chargé en utilisant l'URL comme si `location.assign()` avait été invoquée avec l'URL modifiée.
 
-> **Note :** [Les marqueurs de bac à sable relatifs à la navigation](https://html.spec.whatwg.org/multipage/browsers.html#allowed-to-navigate) pourront lever une exception et empêcher la navigation.
+> [!NOTE]
+> [Les marqueurs de bac à sable relatifs à la navigation](https://html.spec.whatwg.org/multipage/browsers.html#allowed-to-navigate) pourront lever une exception et empêcher la navigation.
 
 ```js
 location.assign("http://www.mozilla.org"); // ou
